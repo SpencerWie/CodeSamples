@@ -1,7 +1,23 @@
 <h2>Sample Code Console</h2>
 
 <p>
-This is a sample code "Hello World" program showing general programming princibles and Unit Test, along with using a seperate API In this case the used API is [Microsoft Azure](https://azure.microsoft.com/en-us/), a network of cloud services including: Web Services, Mobile Cloud Applications, Cloud Storage, Databases, and more. As such I thought this would be a good choice for a general API.
+This is a sample code "Hello World" program showing general programming princibles and Unit Test, along with using a seperate API In this case the used API is <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a>, a network of cloud services including: Web Services, Mobile Cloud Applications, Cloud Storage, Databases, and more. As such I thought this would be a good choice for a general API.
+</p>
+
+<p>
+Running this Code:
+Go the the following URL https://github.com/SpencerWie/CodeSamples, then clone the repository and open it in Visual Studios (<em>2015 Reccommended</em>).
+</p>
+<p>
+<strong>Running Unit Test</strong><br />
+To run the Unit Test in the window click "Run All":<br />
+<img src="https://i.imgur.com/KpVGKYf.png" alt="Unit Test Run All"></img>
+</p>
+<p>
+<strong>Running the Code</strong><br />
+If not already, ensure the main project <em>SampleApplicationConsole</em> is the StartUp Project, if VS defaulted to the UnitTest Project:<br />
+
+<img src="https://i.imgur.com/Ha4t9BP.png" alt="Right-click 'SampleApplicationConsole', click 'Set as startup project'">
 </p>
 
 <p>
@@ -31,7 +47,7 @@ This sample will include three classes with a general Storage using CRUD operati
   <p>
   This needs to use a Windows machine and the following directory needs to exist:
   </p>
-  <div><code>C:\Temp\</code></div>
+  <div><code>C:\Temp\</code></div><br />
   <br />
   <p>
   This is the location that the JSONStorage and BlobStorage will write local JSON files to.
